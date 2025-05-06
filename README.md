@@ -70,7 +70,6 @@ cd your-repo-name<br>
 #2. Create virtual environment and install dependencies<br>
 python -m venv venv<br>
 source venv/bin/activate  # or venv\Scripts\activate on Windows<br>
-pip install -r requirements.txt<br>
 <br>
 #3. Database<br>
 Database Used: SQLite (default Django DB)<br>
