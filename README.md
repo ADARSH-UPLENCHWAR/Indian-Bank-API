@@ -7,32 +7,7 @@ It is built as part of a technical assignment for evaluation purposes.
 ---
 # Project Structure
 
-Indian-Bank-API/
-├── .venv/                      # Virtual environment (can be ignored in version control)
-├── bank_api/                   # Django project configuration
-│   ├── __init__.py
-│   ├── asgi.py
-│   ├── schema.py               # GraphQL schema definitions using Graphene
-│   ├── settings.py             # Project settings (uses SQLite by default)
-│   ├── urls.py                 # URL routing (includes /gql endpoint)
-│   └── wsgi.py
-├── banks/                      # Django app for handling bank/branch models
-│   ├── __init__.py
-│   ├── admin.py
-│   ├── apps.py
-│   ├── models.py               # Models for Bank and Branch
-│   ├── tests.py
-│   ├── views.py
-│   ├── migrations/             # Auto-generated DB migrations
-│   │   ├── 0001_initial.py
-│   │   └── __init__.py
-│   └── management/             # Custom Django management commands
-│       └── commands/
-│           └── load_branches.py  # Script to load CSV data into DB
-├── bank_branches.csv           # Dataset file used to populate the database
-├── db.sqlite3                  # SQLite DB (auto-created after migrations)
-├── manage.py                   # Django’s CLI utility
-└── README.md                   # Project documentation
+<pre> \`\`\` Indian-Bank-API/ ├── .venv/ # Virtual environment (can be ignored in version control) ├── bank_api/ # Django project configuration │ ├── __init__.py │ ├── asgi.py │ ├── schema.py # GraphQL schema definitions using Graphene │ ├── settings.py # Project settings (uses SQLite by default) │ ├── urls.py # URL routing (includes /gql endpoint) │ └── wsgi.py ├── banks/ # Django app for handling bank/branch models │ ├── __init__.py │ ├── admin.py │ ├── apps.py │ ├── models.py # Models for Bank and Branch │ ├── tests.py │ ├── views.py │ ├── migrations/ # Auto-generated DB migrations │ │ ├── 0001_initial.py │ │ └── __init__.py │ └── management/ # Custom Django management commands │ └── commands/ │ └── load_branches.py # Script to load CSV data into DB ├── bank_branches.csv # Dataset file used to populate the database ├── db.sqlite3 # SQLite DB (auto-created after migrations) ├── manage.py # Django’s CLI utility └── README.md # Project documentation \`\`\` </pre>
 
 
 
