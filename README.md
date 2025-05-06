@@ -89,11 +89,12 @@ python manage.py test
 
 
 
+![image](https://github.com/user-attachments/assets/52c77a57-3606-4dfe-a8e8-cd19fbd08e6b)
 
 
 ## 🔗 GraphQL Sample Query
 
-To get all branches with their IFSC codes and bank names:
+To get all branches with their all subclass data:
 
 ```graphql
 query {
