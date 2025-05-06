@@ -40,51 +40,50 @@ Indian-Bank-API/
 
 
 ---
-
-## 🚀 Features
-
-- GraphQL endpoint at `/gql`
-- Query bank branches, IFSC codes, and associated bank details
-- Backend built using Django and Graphene
-- Clean and scalable codebase
-- Database Used: SQLite (default Django DB)
-- Includes test cases for basic validations(test.py)
-
----
-
-## 📂 Dataset Source
-
-Data used in this project comes from the open-source dataset provided at:
-[https://github.com/Amanskywalker/indian_banks](https://github.com/Amanskywalker/indian_banks)
-
----
-🛠️ Tech Stack
-Language: Python 3.11
-Backend: Django
-GraphQL: Graphene-Django
-
-⚙️ Setup Instructions (Local)
-#1. Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-
-#2. Create virtual environment and install dependencies
-python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
-pip install -r requirements.txt
-
-#3.Database
-Database Used: SQLite (default Django DB)
-No manual setup required — SQLite runs out of the box and stores data in db.sqlite3.
-
-#4. Run migrations
-python manage.py makemigrations
-python manage.py migrate
-
-#5. Run the server
-python manage.py runserver
-
-Access GraphQL interface at http://127.0.0.1:8000/gql.
+## 🚀 Features<br>
+<br>
+- GraphQL endpoint at `/gql`<br>
+- Query bank branches, IFSC codes, and associated bank details<br>
+- Backend built using Django and Graphene<br>
+- Clean and scalable codebase<br>
+- Database Used: SQLite (default Django DB)<br>
+- Includes test cases for basic validations (`test.py`)<br>
+<br>
+---<br>
+<br>
+## 📂 Dataset Source<br>
+<br>
+Data used in this project comes from the open-source dataset provided at:<br>
+[https://github.com/Amanskywalker/indian_banks](https://github.com/Amanskywalker/indian_banks)<br>
+<br>
+---<br>
+🛠️ Tech Stack<br>
+Language: Python 3.11<br>
+Backend: Django<br>
+GraphQL: Graphene-Django<br>
+<br>
+⚙️ Setup Instructions (Local)<br>
+#1. Clone the repository<br>
+git clone https://github.com/your-username/your-repo-name.git<br>
+cd your-repo-name<br>
+<br>
+#2. Create virtual environment and install dependencies<br>
+python -m venv venv<br>
+source venv/bin/activate  # or venv\Scripts\activate on Windows<br>
+pip install -r requirements.txt<br>
+<br>
+#3. Database<br>
+Database Used: SQLite (default Django DB)<br>
+No manual setup required — SQLite runs out of the box and stores data in db.sqlite3.<br>
+<br>
+#4. Run migrations<br>
+python manage.py makemigrations<br>
+python manage.py migrate<br>
+<br>
+#5. Run the server<br>
+python manage.py runserver<br>
+<br>
+Access GraphQL interface at http://127.0.0.1:8000/gql.<br>
 
 
 
