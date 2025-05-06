@@ -83,6 +83,10 @@ python manage.py migrate<br>
 python manage.py runserver<br>
 <br>
 Access GraphQL interface at http://127.0.0.1:8000/gql.<br>
+<br>
+#6. Test the server<br>
+python manage.py test
+
 
 
 
