@@ -34,8 +34,7 @@ Indian-Bank-API/
 ├── db.sqlite3                  # SQLite DB (auto-created after migrations)
 ├── manage.py                   # Django’s CLI utility
 └── README.md                   # Project documentation
-
-
+```
 
 
 
