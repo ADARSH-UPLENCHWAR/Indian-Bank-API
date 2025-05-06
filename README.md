@@ -7,7 +7,7 @@ It is built as part of a technical assignment for evaluation purposes.
 ---
 # Project Structure
 
-Indian-Bank-API/
+Indian-Bank-API/<br>
 ├── .venv/                      # Virtual environment (can be ignored in version control)
 ├── bank_api/                   # Django project configuration
 │   ├── __init__.py
