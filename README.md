@@ -50,13 +50,7 @@ Indian-Bank-API/
 - Includes test cases for basic validations (`test.py`)<br>
 <br>
 ---<br>
-<br>
-## 📂 Dataset Source<br>
-<br>
-Data used in this project comes from the open-source dataset provided at:<br>
-[https://github.com/Amanskywalker/indian_banks](https://github.com/Amanskywalker/indian_banks)<br>
-<br>
----<br>
+
 🛠️ Tech Stack<br>
 Language: Python 3.11<br>
 Backend: Django<br>
