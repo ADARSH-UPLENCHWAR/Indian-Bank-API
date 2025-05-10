@@ -2,7 +2,6 @@
 
 This project provides a **GraphQL API service** to query Indian bank branches data using Django and Graphene-Django.
 
-It is built as part of a technical assignment for evaluation purposes.
 
 ---
 # Project Structure
